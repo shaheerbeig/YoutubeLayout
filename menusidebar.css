@@ -1,0 +1,25 @@
+.sidemenubar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    top:80px;
+    z-index: 2;
+
+}
+
+.sidebar-link{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sidebar-link:hover{
+    background-color: rgb(234, 230, 230);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.sidebar-link img{
+    height: 35px;
+}
